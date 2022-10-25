@@ -13,7 +13,7 @@ export default function AnyComponent() {
     } = useSpeechToText({
         continuous: true,
         crossBrowser: true,
-        googleApiKey: 'AIzaSyALe6mlG6RJScEdlBsz8E2CrNn2dSsboJ4',
+        // googleApiKey: '',
         useLegacyResults: false,
         speechRecognitionProperties: {
             lang: language,
