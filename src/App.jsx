@@ -37,8 +37,8 @@ export default function AnyComponent() {
       </ul>
       <label>Language: </label>
       <select onChange={event => (setLanguage(event.target.value))}>
-        <option value="en-US">English</option>
         <option value="pt-BR">Portuguese</option>
+        <option value="en-US">English</option>
       </select>
     </div>
   );
